@@ -1,1 +1,1 @@
-# Obsticle-Game
+# Obstacle Game
