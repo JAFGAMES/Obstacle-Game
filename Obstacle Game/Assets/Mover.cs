@@ -34,10 +34,10 @@ public class Mover : MonoBehaviour
             float xValue = Input.GetAxis("Horizontal")* Time.deltaTime* moveSpeed5;
             float zValue = Input.GetAxis("Vertical")* Time.deltaTime* moveSpeed5;
             transform.Translate(xValue,0,zValue);
-            Debug.Log("The Value of xValue is " + xValue);
-            Debug.Log("The Value of zValue is " + zValue);
-            Debug.Log("The Value of Time.deltaTime is " + Time.deltaTime);
-            Debug.Log("The Value of moveSpeed5 is " + moveSpeed5);
+            //Debug.Log("The Value of xValue is " + xValue);
+            //Debug.Log("The Value of zValue is " + zValue);
+            //Debug.Log("The Value of Time.deltaTime is " + Time.deltaTime);
+            //Debug.Log("The Value of moveSpeed5 is " + moveSpeed5);
         }
 
 
